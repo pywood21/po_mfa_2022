@@ -19,6 +19,8 @@ Part II: X-ray fiber diffraction analysis to measure MFA by peak deconvolution m
 
 
 
+<img src="/Users/js/Library/Application Support/typora-user-images/image-20221027140019043.png" alt="image-20221027140019043" style="zoom:25%;" />
+
 
 
 
