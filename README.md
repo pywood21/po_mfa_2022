@@ -19,7 +19,7 @@ Part II: X-ray fiber diffraction analysis to measure MFA by peak deconvolution m
 
 
 
-<img src="underconstruction.png" alt="under_construction" style="zoom:25%;" />
+<img src="./common/underconstruction.png" alt="under_construction" style="zoom:25%;" />
 
 
 
