@@ -1,9 +1,11 @@
 # po_mfa_2022
 Softwares developped by pywood21: 
 
-Source: Yusuke Kita, Tatsuya Awano, Arata Yoshinaga and Junji Sugiyama: Intra-annual fluctuation in morphology and microfibril angle of tracheids revealed by novel microscopy-based imaging. PLOS One, 2022. https://doi.org/10.1371/journal.pone.0277616
+Source: Yusuke Kita, Tatsuya Awano, Arata Yoshinaga and Junji Sugiyama: Intra-annual fluctuation in morphology and microfibril angle of tracheids revealed by novel microscopy-based imaging. <br>
 
- 
+URL: [https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0277616]() <br>
+
+<img src="./img/paper_face.PNG" style="zoom:50%;" />
 
 
 
@@ -17,9 +19,15 @@ Part II: X-ray fiber diffraction analysis to measure MFA by peak deconvolution m
 
 ## Radial file based evaluation of softwood cell anatomy and MFA.
 
+This part corresponds to a series of image analyses techniques, image concatenation, image registration, image segmentation and MFA image creation.  Image analysis follows the procedure shown in original paper (See Fig.1).<br>
+
+<img src="./img/Fig.1.png" style="zoom:50%;" />
 
 
-<img src="./common/underconstruction.png" alt="under_construction" style="zoom:25%;" />
+
+
+
+<img src="./img/underconstruction.png" alt="under_construction" style="zoom:25%;" />
 
 
 
