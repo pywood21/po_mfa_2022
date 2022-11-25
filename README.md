@@ -23,41 +23,71 @@ This part corresponds to a series of image analyses techniques, image concatenat
 
 <img src="./img/Fig.1.png" style="zoom:50%;" /><br>
 
+Python files and jupyter notebooks for Image manipulation corresponding to each step are listed below. <br>
+
+How to use each files is commented in each file.<br>
+
+&nbsp;
+
 1. **Manipulation of FLM images (step B-2 - B-4 in Fig.1)** <br>
 
-   Python files and jupyter notebooks for Image manipulation corresponding to each step are listed below. <br>
+   - **Image concatenation**:<br>[Stitcher.py](./common/Stitcher.py)<br>
 
-   
+   - **Watershed segmentation**: <br> [Watershed_func.py](./common/Watershed_func.py)<br>
 
-   **Image concatenation**: [Stitcher.py](./common/Stitcher.py)<br>
+   - **Radial file extraction**: <br>
 
-   **Watershed segmentation**: Watershed_func.py <br>
+     [Radial_file_extraction.py](./common/Radial_file_extraction.py) <br>
 
-   **Step B-2**: P01_FLM_stitching.ipynb <br>
+   - **Step B-2**:<br> [P01_FLM_stitching.ipynb](./jupyternotebooks/POM&FLM/P01_FLM_stitching.ipynb)<br>
 
-   **Step B-3**: P02_watershed_segmentation_with_ray_extraction.ipynb<br>
+   - **Step B-3**:<br>[P02_watershed_segmentation_with_ray_extraction.ipynb](./jupyternotebooks/POM&FLM/P02_watershed_segmentation_with_ray_extraction.ipynb)<br>[P03-1_stitching_manual_correction_image.ipynb](./jupyter_notebooks/POM&FLM/P03-1_stitching_manual_correction_image.ipynb)<br>[P03-2_creating_GT_im_by_denoising.ipynb](./jupyter_notebooks/POM&FLM/P03-2_creating_GT_im_by_denoising.ipynb)<br>
 
-   ​                  P03-1_
+   - **Step B-4**:<br>[P07_RAG_drawing_radial_file_extraction.ipynb](./jupyternotebooks/POM&FLM/P07_RAG_drawing_radial_file_extraction.ipynb)<br>
 
-   ​                  P03-2_
-
-   Step B-4: P07_RAG_drawing_radial_file_extraction.ipynb<br>
+&nbsp;
 
 2. **Manipulation of POM image (step A-2 - A-5 in Fig.1)** <br>
 
+   - **Image concatenation**: <br>
 
+     [Stitcher.py](./common/Stitcher.py)<br>
+
+   - **PolScope conversion**: <br>
+
+     [Ret_MFA_func.py](./common/Ret_MFA_func.py) <br>
+
+   - **Step A-2 - A-4**: <br>
+
+     [P04_polscope_conversion_&_image_stitching_for_x40.ipynb](./jupyter_notebooks/POM%26FLM/P04_polscope_conversion_%26_image_stitching_for_x40.ipynb)<br>
+
+   - **Step A-5**:
+
+     [P09_extract_each_layer_contribution.ipynb](./jupyter_notebooks/POM&FLM/P09_extract_each_layer_contribution.ipynb)<br>
+
+&nbsp;
 
 3. **Simultaneous evaluation of tracheid anatomy and MFA based on radial file units (step C-1 and C-2 in Fig.1)** <br>
 
+   - **Image registration**: <br>
 
+     [Stitcher.py](./common/Stitcher.py)<br>
 
-If you try the above codes, please run the jupyter notebooks following the number put on the those names (P01->P02-> ... -> P10) .<br>
+   - **Step C-1**:<br>
 
-<img src="./img/underconstruction.png" alt="under_construction" style="zoom:25%;" />
+     [P05_FLM_polscope_image_matching_for_x40.ipynb](./jupyter_notebooks/POM&FLM/P05_FLM_polscope_image_matching_for_x40.ipynb)<br>
 
+   - **Step C-2**:<br>
 
+     [P08_radial_file_base_anatomical_parameter_extraction_for_x40.ipynb](./jupyter_notebooks/POM&FLM/P08_radial_file_base_anatomical_parameter_extraction_for_x40.ipynb)<br>
 
+     [P10_Outlier_elimination_&_dataframe_saving.ipynb](./jupyter_notebooks/POM&FLM/P10_Outlier_elimination_%26_dataframe_saving.ipynb)<br>
 
+&nbsp;
+
+If you try the above codes, please run the jupyter notebooks following the number put on the those names sequentially (P01->P02-> ... -> P10) .<br>
+
+&nbsp;
 
 # Part II
 
