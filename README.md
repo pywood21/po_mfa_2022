@@ -1,7 +1,7 @@
 # po_mfa_2022
 Softwares developped by pywood21: 
 
-Source: Yusuke Kita, Tatsuya Awano, Arata Yoshinaga and Junji Sugiyama: Intra-annual fluctuation in morphology and microfibril angle of tracheids revealed by novel microscopy-based imaging. Journal DOI
+Source: Yusuke Kita, Tatsuya Awano, Arata Yoshinaga and Junji Sugiyama: Intra-annual fluctuation in morphology and microfibril angle of tracheids revealed by novel microscopy-based imaging. PLOS One, 2022. https://doi.org/10.1371/journal.pone.0277616
 
  
 
