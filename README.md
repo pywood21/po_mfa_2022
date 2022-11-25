@@ -3,9 +3,9 @@ Softwares developped by pywood21:
 
 Source: Yusuke Kita, Tatsuya Awano, Arata Yoshinaga and Junji Sugiyama: Intra-annual fluctuation in morphology and microfibril angle of tracheids revealed by novel microscopy-based imaging. <br>
 
-URL: [https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0277616]() <br>
+URL: [Click here](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0277616) <br>
 
-<img src="./img/paper_face.PNG" style="zoom:50%;" />
+<img src="./img/paper_face.png" style="zoom:50%;" />
 
 
 
@@ -21,11 +21,37 @@ Part II: X-ray fiber diffraction analysis to measure MFA by peak deconvolution m
 
 This part corresponds to a series of image analyses techniques, image concatenation, image registration, image segmentation and MFA image creation.  Image analysis follows the procedure shown in original paper (See Fig.1).<br>
 
-<img src="./img/Fig.1.png" style="zoom:50%;" />
+<img src="./img/Fig.1.png" style="zoom:50%;" /><br>
+
+1. **Manipulation of FLM images (step B-2 - B-4 in Fig.1)** <br>
+
+   Python files and jupyter notebooks for Image manipulation corresponding to each step are listed below. <br>
+
+   
+
+   **Image concatenation**: [Stitcher.py](./common/Stitcher.py)<br>
+
+   **Watershed segmentation**: Watershed_func.py <br>
+
+   **Step B-2**: P01_FLM_stitching.ipynb <br>
+
+   **Step B-3**: P02_watershed_segmentation_with_ray_extraction.ipynb<br>
+
+   ​                  P03-1_
+
+   ​                  P03-2_
+
+   Step B-4: P07_RAG_drawing_radial_file_extraction.ipynb<br>
+
+2. **Manipulation of POM image (step A-2 - A-5 in Fig.1)** <br>
 
 
 
+3. **Simultaneous evaluation of tracheid anatomy and MFA based on radial file units (step C-1 and C-2 in Fig.1)** <br>
 
+
+
+If you try the above codes, please run the jupyter notebooks following the number put on the those names (P01->P02-> ... -> P10) .<br>
 
 <img src="./img/underconstruction.png" alt="under_construction" style="zoom:25%;" />
 
