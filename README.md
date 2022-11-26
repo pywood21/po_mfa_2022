@@ -9,11 +9,17 @@ URL: [Click here](https://journals.plos.org/plosone/article?id=10.1371/journal.p
 
 
 
-Part I: a new CV technique combining polarization optical microscopy, fluorescence microscopy, and image segmentation.
+This repository divide our programming resources into two parts shown below: <br>
 
-Part II: X-ray fiber diffraction analysis to measure MFA by peak deconvolution method.
+**Part I**: a new CV technique combining polarization optical microscopy, fluorescence microscopy, and image segmentation.<br>
+
+**Part II**: X-ray fiber diffraction analysis to measure MFA by peak deconvolution method.<br>
+
+&nbsp;
 
 
+
+&nbsp;
 
 # Part I
 
