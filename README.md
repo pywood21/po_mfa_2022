@@ -5,8 +5,6 @@ Source: Yusuke Kita, Tatsuya Awano, Arata Yoshinaga and Junji Sugiyama: Intra-an
 
 URL: [Click here](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0277616) <br>
 
-<img src="./img/paper_face.png" style="zoom:50%;" />
-
 
 
 This repository divide our programming resources into two parts shown below: <br>
